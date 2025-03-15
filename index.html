@@ -1,139 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your GitHub Pages</title>
+    <title>Impressum</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-            background-color: #f4f4f4;
+            margin: 2em;
+            line-height: 1.6;
             color: #333;
+            background-color: #f8f8f8;
         }
 
-        header {
-            background-color: #3498db;
-            color: white;
-            text-align: center;
-            padding: 2em 0;
+        .h1, h2{
+            color: #0078D4; /* Microsoft Blue */
         }
 
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
-
-        main {
-            flex: 1;
-            padding: 2em;
+        .container {
             max-width: 800px;
             margin: 0 auto;
             background-color: white;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 2em;
             border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
-        section {
-            margin-bottom: 2em;
+        .contact-info {
+            margin-top: 1em;
         }
 
-        section h2 {
-            color: #3498db;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 0.5em;
-        }
-
-        footer {
-            text-align: center;
-            padding: 1em 0;
-            background-color: #ecf0f1;
-            border-top: 1px solid #ddd;
-        }
-
-        a {
-            color: #3498db;
+        .contact-info a {
+            color: #0078D4;
             text-decoration: none;
         }
 
-        a:hover {
+        .contact-info a:hover {
             text-decoration: underline;
         }
-
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        li {
-            margin-bottom: 0.5em;
-        }
-
-        .project-item {
-            border: 1px solid #ddd;
-            padding: 1em;
-            border-radius: 4px;
-            margin-bottom: 1em;
-        }
-
-        .project-item h3 {
-            margin-top: 0;
-            color: #2c3e50;
-        }
-
-        .project-item p {
-            margin-bottom: 0.5em;
-        }
-
     </style>
 </head>
 <body>
+    <div class="container">
+        <h1>Impressum</h1>
 
-    <header>
-        <h1>Welcome to My GitHub Pages</h1>
-        <p>A place to showcase my projects and ideas.</p>
-    </header>
+        <h2>Angaben gemäß § 5 TMG</h2>
 
-    <main>
-        <section>
-            <h2>About Me</h2>
-            <p>
-                Hello! I'm [Your Name], a passionate [Your Profession/Interest]. I enjoy [Your Interests/Skills]. This page is where I share my projects and experiments.
-            </p>
-        </section>
+        <p>
+            [Your Name/Business Name]<br>
+            [Your Business Address – Co-working space, Virtual Office, etc.]<br>
+            [Your City, Postal Code]
+        </p>
 
-        <section>
-            <h2>Projects</h2>
-            <ul>
-                <li class="project-item">
-                    <h3>Project 1: [Project Name]</h3>
-                    <p>[Short Description of Project]</p>
-                    <a href="[Link to Project Repository or Demo]">View on GitHub</a>
-                </li>
-                <li class="project-item">
-                    <h3>Project 2: [Project Name]</h3>
-                    <p>[Short Description of Project]</p>
-                    <a href="[Link to Project Repository or Demo]">View on GitHub</a>
-                </li>
-                </ul>
-        </section>
+        <div class="contact-info">
+            <strong>Kontakt:</strong><br>
+            Telefon: [Your Phone Number]<br>
+            E-Mail: <a href="mailto:[Your Email Address]">[Your Email Address]</a>
+        </div>
 
-        <section>
-            <h2>Contact</h2>
-            <p>
-                You can reach me at: <a href="mailto:[Your Email]">[Your Email]</a>
-            </p>
-            <p>Find me on GitHub: <a href="https://github.com/[Your GitHub Username]">GitHub Profile</a></p>
-            </section>
-    </main>
+        <h2>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h2>
 
-    <footer>
-        <p>&copy; [Year] [Your Name]</p>
-    </footer>
+        <p>
+            [Your Name/Business Name]<br>
+            [Your Business Address – Co-working space, Virtual Office, etc.]<br>
+            [Your City, Postal Code]
+        </p>
 
+        <p>This Impressum also applies to the following online presences:</p>
+
+        <ul>
+            <li><a href="[Your GitHub Profile Link]">GitHub</a></li>
+            <li><a href="[Your LinkedIn Profile Link]">LinkedIn</a></li>
+            <li>[Other Social Media Links]</li>
+        </ul>
+    </div>
 </body>
 </html>
